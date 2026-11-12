@@ -1,0 +1,10 @@
+,data_type,missing_count,missing_percent,unique_values
+patient_id,string,0,0.0,13
+age_years,float64,1,7.14,12
+sex,string,1,7.14,3
+visit_date,string,1,7.14,10
+systolic_bp_mmHg,float64,1,7.14,12
+diastolic_bp_mmHg,float64,1,7.14,12
+diagnosis,string,0,0.0,6
+department,string,0,0.0,5
+postal_code,string,0,0.0,13

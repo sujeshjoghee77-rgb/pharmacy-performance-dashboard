@@ -1,0 +1,10 @@
+field_name,description,data_type,field_classification,unit_or_format,allowed_values_or_range,missing_allowed,validation_rule,source_or_justification
+patient_id,Synthetic pseudonymous patient record identifier,string,Pseudonymous identifier,SYN###,Unique per patient only if dataset design requires; repeats may represent encounters,No,Missing and duplicate ID review,Synthetic demo schema; confirm source design
+age_years,Age in completed years,integer,Quasi-identifier / demographic,years,No clinical threshold asserted; check permitted range in source specification,Review,Numeric type and missingness check,Synthetic demo schema
+sex,Recorded sex category,string,Demographic data,Category as supplied,Allowed categories must be confirmed from source,Review,Trim whitespace; blank to missing,Synthetic demo schema
+visit_date,Date associated with the visit,date,Quasi-identifier,YYYY-MM-DD,Must be a valid date in source-defined format,Review,Parse date; flag failures,Synthetic demo schema
+systolic_bp_mmHg,Systolic blood pressure measurement,integer,Sensitive clinical data,mmHg,No clinical range applied; require approved clinical specification,Review,Numeric type and missingness check,Synthetic demo schema
+diastolic_bp_mmHg,Diastolic blood pressure measurement,integer,Sensitive clinical data,mmHg,No clinical range applied; require approved clinical specification,Review,Numeric type and missingness check,Synthetic demo schema
+diagnosis,Recorded diagnosis label,string,Sensitive clinical data,Text/category,Values must follow source terminology/code set,Review,Trim whitespace; do not reinterpret,Synthetic demo schema
+department,Clinical department associated with visit,string,Administrative / operational data,Text/category,Allowed departments must be confirmed from source,Review,Trim whitespace; blank to missing,Synthetic demo schema
+postal_code,Postal area code,string,Quasi-identifier,Text; preserve leading zeros,Format depends on jurisdiction/source,Review,Keep as string; assess re-identification risk,Synthetic demo schema

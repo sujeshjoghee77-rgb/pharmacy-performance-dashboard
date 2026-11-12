@@ -1,0 +1,14 @@
+# Starter Checklist
+- [x] Create a clearly labelled synthetic demonstration dataset.
+- [x] Classify all fields in a data dictionary.
+- [x] Document de-identification considerations and residual quasi-identifier risk.
+- [x] Check missing values and data types.
+- [x] Check duplicate rows and repeated patient IDs.
+- [x] Apply conservative formatting/date cleaning.
+- [x] Preserve clinical values without inventing replacements.
+- [x] Create exception log and quality profile.
+- [x] Create reproducible Python notebook.
+- [ ] Replace demonstration data with official task CSV if it becomes available.
+- [ ] Confirm clinical ranges and units from official governance pack, if provided.
+- [ ] Review all open exceptions before final sign-off.
+- [ ] Publish a view-only repository link, after ensuring no sensitive data is included.

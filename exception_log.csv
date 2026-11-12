@@ -1,0 +1,10 @@
+source_row_number,field_name,issue_type,validation_rule,severity,recommended_action,status
+4,age_years,missing_value,Age may be missing only if permitted by the source specification,review,Check source documentation; do not infer age,open - review
+6,systolic_bp_mmHg,missing_value,Clinical measurement may be missing; do not impute without approval,review,Verify source; retain missing if unavailable,open - review
+8,visit_date,date_parse_failure,Visit date must parse using the documented date format,review,Check source format; do not guess a date,open - review
+14,sex,missing_value,Blank categorical value should be represented as missing,review,Check source; do not infer,open - review
+15,diastolic_bp_mmHg,missing_value,Clinical measurement may be missing; do not impute without approval,review,Verify source; retain missing if unavailable,open - review
+11,*row*,duplicate_row,Exact duplicate rows require review,review,Verify source; do not delete automatically,open - review
+12,*row*,duplicate_row,Exact duplicate rows require review,review,Verify source; do not delete automatically,open - review
+11,patient_id,duplicate_patient_id,Patient identifier duplicates must be reviewed; multiple encounters may be valid,high,Determine whether repeated ID is an error or a legitimate repeat encounter,open - review
+12,patient_id,duplicate_patient_id,Patient identifier duplicates must be reviewed; multiple encounters may be valid,high,Determine whether repeated ID is an error or a legitimate repeat encounter,open - review

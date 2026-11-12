@@ -1,0 +1,15 @@
+patient_id,age_years,sex,visit_date,systolic_bp_mmHg,diastolic_bp_mmHg,diagnosis,department,postal_code
+SYN001,34.0,Female,2026-10-01,118.0,76.0,Hypertension,Cardiology,641001
+SYN002,57.0,Male,2026-10-02,142.0,91.0,Type 2 diabetes,General Medicine,641002
+SYN003,,Female,2026-10-02,121.0,80.0,Asthma,Pulmonology,641003
+SYN004,45.0,Male,2026-10-03,130.0,84.0,Migraine,Neurology,641004
+SYN005,29.0,Female,2026-10-04,,78.0,Anemia,General Medicine,641005
+SYN006,63.0,Male,2026-10-04,155.0,96.0,Hypertension,Cardiology,641006
+SYN007,41.0,Female,,116.0,74.0,Asthma,Pulmonology,641007
+SYN008,52.0,Other,2026-10-06,127.0,82.0,Arthritis,Orthopedics,641008
+SYN009,38.0,Female,2026-10-07,119.0,77.0,Migraine,Neurology,641009
+SYN010,71.0,Male,2026-10-08,148.0,89.0,Type 2 diabetes,General Medicine,641010
+SYN010,71.0,Male,2026-10-08,148.0,89.0,Type 2 diabetes,General Medicine,641010
+SYN012,26.0,Female,2026-10-09,110.0,70.0,Asthma,Pulmonology,641011
+SYN013,33.0,,2026-10-10,122.0,79.0,Migraine,Neurology,641012
+SYN014,49.0,Male,2026-10-11,135.0,,Hypertension,Cardiology,641013
